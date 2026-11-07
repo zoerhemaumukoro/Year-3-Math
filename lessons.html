@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Year 3 Maths Lessons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="lessons">
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-mark">3</span>
+          <div>
+            <p class="brand-name">Year 3 Maths</p>
+            <p class="brand-subtitle">UK National Curriculum</p>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="lessons.html" class="nav-link active">Lessons</a>
+          <a href="games.html" class="nav-link">Games</a>
+          <a href="progress.html" class="nav-link">Progress</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container lessons-page">
+      <div class="section-heading">
+        <p class="eyebrow">Lesson ideas</p>
+        <h2>Weekly maths lessons</h2>
+      </div>
+
+      <div class="lesson-tabs" role="tablist" aria-label="Year 3 lesson tabs">
+        <button class="lesson-tab active" type="button" role="tab" aria-selected="true" data-tab="counting-panel">1. Number patterns</button>
+        <button class="lesson-tab" type="button" role="tab" aria-selected="false" data-tab="addition-panel">2. Addition</button>
+        <button class="lesson-tab" type="button" role="tab" aria-selected="false" data-tab="multiplication-panel">3. Multiplication</button>
+        <button class="lesson-tab" type="button" role="tab" aria-selected="false" data-tab="fractions-panel">4. Fractions</button>
+        <button class="lesson-tab" type="button" role="tab" aria-selected="false" data-tab="measurement-panel">5. Measure</button>
+        <button class="lesson-tab" type="button" role="tab" aria-selected="false" data-tab="geometry-panel">6. Geometry</button>
+      </div>
+
+      <div class="tab-panels">
+        <section class="lesson-panel active" id="counting-panel" role="tabpanel">
+          <div class="lesson-card">
+            <h3>Number patterns</h3>
+            <ul>
+              <li>Count in 2s, 3s, 4s, 5s and 8s.</li>
+              <li>Spot patterns in sequences and tables.</li>
+              <li>Use place value to explain each jump.</li>
+            </ul>
+          </div>
+          <div class="question-panel lesson-question">
+            <p class="category">Quick check</p>
+            <h4>What comes next: 4, 8, 12, 16, ?</h4>
+            <div class="practice-answers" data-correct="20">
+              <button class="practice-option" type="button" data-answer="18">18</button>
+              <button class="practice-option" type="button" data-answer="20">20</button>
+              <button class="practice-option" type="button" data-answer="24">24</button>
+              <button class="practice-option" type="button" data-answer="17">17</button>
+            </div>
+            <p class="practice-feedback" aria-live="polite"></p>
+          </div>
+        </section>
+
+        <section class="lesson-panel" id="addition-panel" role="tabpanel">
+          <div class="lesson-card">
+            <h3>Addition and subtraction</h3>
+            <ul>
+              <li>Use number bonds to 10 and 20.</li>
+              <li>Add and subtract tens and ones mentally.</li>
+              <li>Check answers by using the inverse.</li>
+            </ul>
+          </div>
+          <div class="question-panel lesson-question">
+            <p class="category">Quick check</p>
+            <h4>Which answer is correct for 38 + 17?</h4>
+            <div class="practice-answers" data-correct="55">
+              <button class="practice-option" type="button" data-answer="45">45</button>
+              <button class="practice-option" type="button" data-answer="55">55</button>
+              <button class="practice-option" type="button" data-answer="65">65</button>
+              <button class="practice-option" type="button" data-answer="54">54</button>
+            </div>
+            <p class="practice-feedback" aria-live="polite"></p>
+          </div>
+        </section>
+
+        <section class="lesson-panel" id="multiplication-panel" role="tabpanel">
+          <div class="lesson-card">
+            <h3>Times tables</h3>
+            <ul>
+              <li>Learn 3, 4 and 8 times tables.</li>
+              <li>Use arrays to show multiplication.</li>
+              <li>Match facts to related division facts.</li>
+            </ul>
+          </div>
+          <div class="question-panel lesson-question">
+            <p class="category">Quick check</p>
+            <h4>What is 7 × 8?</h4>
+            <div class="practice-answers" data-correct="56">
+              <button class="practice-option" type="button" data-answer="48">48</button>
+              <button class="practice-option" type="button" data-answer="56">56</button>
+              <button class="practice-option" type="button" data-answer="64">64</button>
+              <button class="practice-option" type="button" data-answer="54">54</button>
+            </div>
+            <p class="practice-feedback" aria-live="polite"></p>
+          </div>
+        </section>
+
+        <section class="lesson-panel" id="fractions-panel" role="tabpanel">
+          <div class="lesson-card">
+            <h3>Fractions</h3>
+            <ul>
+              <li>Split shapes into equal parts.</li>
+              <li>Find fractions such as 1/2, 1/4 and 3/4.</li>
+              <li>Compare simple fractions with the same denominator.</li>
+            </ul>
+          </div>
+          <div class="question-panel lesson-question">
+            <p class="category">Quick check</p>
+            <h4>Which fraction is equal to 1/2?</h4>
+            <div class="practice-answers" data-correct="3/6">
+              <button class="practice-option" type="button" data-answer="2/3">2/3</button>
+              <button class="practice-option" type="button" data-answer="3/6">3/6</button>
+              <button class="practice-option" type="button" data-answer="1/4">1/4</button>
+              <button class="practice-option" type="button" data-answer="4/5">4/5</button>
+            </div>
+            <p class="practice-feedback" aria-live="polite"></p>
+          </div>
+        </section>
+
+        <section class="lesson-panel" id="measurement-panel" role="tabpanel">
+          <div class="lesson-card">
+            <h3>Time and measure</h3>
+            <ul>
+              <li>Read analogue and digital clocks.</li>
+              <li>Measure length, mass and capacity.</li>
+              <li>Find the perimeter of simple shapes.</li>
+            </ul>
+          </div>
+          <div class="question-panel lesson-question">
+            <p class="category">Quick check</p>
+            <h4>How many centimetres are in 1 metre?</h4>
+            <div class="practice-answers" data-correct="100">
+              <button class="practice-option" type="button" data-answer="10">10</button>
+              <button class="practice-option" type="button" data-answer="100">100</button>
+              <button class="practice-option" type="button" data-answer="1000">1000</button>
+              <button class="practice-option" type="button" data-answer="50">50</button>
+            </div>
+            <p class="practice-feedback" aria-live="polite"></p>
+          </div>
+        </section>
+
+        <section class="lesson-panel" id="geometry-panel" role="tabpanel">
+          <div class="lesson-card">
+            <h3>Geometry and data</h3>
+            <ul>
+              <li>Identify right angles and symmetry.</li>
+              <li>Name 2D shapes and 3D objects.</li>
+              <li>Read information from bar charts and tables.</li>
+            </ul>
+          </div>
+          <div class="question-panel lesson-question">
+            <p class="category">Quick check</p>
+            <h4>How many right angles does a square have?</h4>
+            <div class="practice-answers" data-correct="4">
+              <button class="practice-option" type="button" data-answer="1">1</button>
+              <button class="practice-option" type="button" data-answer="2">2</button>
+              <button class="practice-option" type="button" data-answer="3">3</button>
+              <button class="practice-option" type="button" data-answer="4">4</button>
+            </div>
+            <p class="practice-feedback" aria-live="polite"></p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>Year 3 Maths • National Curriculum for England</p>
+        <p>Helping children learn with confidence.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

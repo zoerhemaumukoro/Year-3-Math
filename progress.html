@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Year 3 Maths Progress Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="progress">
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-mark">3</span>
+          <div>
+            <p class="brand-name">Year 3 Maths</p>
+            <p class="brand-subtitle">UK National Curriculum</p>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="lessons.html" class="nav-link">Lessons</a>
+          <a href="games.html" class="nav-link">Games</a>
+          <a href="progress.html" class="nav-link active">Progress</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container progress-page">
+      <div class="section-heading">
+        <p class="eyebrow">Track progress</p>
+        <h2>My maths journey</h2>
+      </div>
+
+      <div class="progress-layout">
+        <div class="progress-panel">
+          <h3>Learning goals</h3>
+          <div class="progress-meter">
+            <div class="progress-bar" aria-label="Progress bar"></div>
+          </div>
+          <div class="progress-stats">
+            <span id="progressText">0/8 skills complete</span>
+            <span>Keep going!</span>
+          </div>
+
+          <ul class="task-list">
+            <li><label><input type="checkbox" data-key="counts" /> Count in steps</label></li>
+            <li><label><input type="checkbox" data-key="addition" /> Addition and subtraction</label></li>
+            <li><label><input type="checkbox" data-key="multiplication" /> Multiplication facts</label></li>
+            <li><label><input type="checkbox" data-key="fractions" /> Fractions</label></li>
+            <li><label><input type="checkbox" data-key="time" /> Time and measure</label></li>
+            <li><label><input type="checkbox" data-key="shapes" /> Shapes and angles</label></li>
+            <li><label><input type="checkbox" data-key="data" /> Data and charts</label></li>
+            <li><label><input type="checkbox" data-key="challenge" /> Maths challenge quiz</label></li>
+          </ul>
+        </div>
+
+        <div class="progress-panel">
+          <h3>Next steps</h3>
+          <ul class="task-list">
+            <li><span>Practise the 3s and 4s tables.</span></li>
+            <li><span>Try one quick fraction activity.</span></li>
+            <li><span>Measure objects around the room.</span></li>
+            <li><span>Complete one maths game today.</span></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>Year 3 Maths • National Curriculum for England</p>
+        <p>Celebrate every small success.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
